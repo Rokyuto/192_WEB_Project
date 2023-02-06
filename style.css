@@ -6,6 +6,9 @@ body{
     height: 100vh;
     background-color: bisque;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('Images/MainPage_Banner_Half.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /* ---------------------- SCROLLBARS ---------------------- */
