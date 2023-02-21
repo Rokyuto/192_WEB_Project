@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    font-family:serif;
+}
+
+/* .Container_SignUp{
+    width: 40%;
+    text-align: center;
+    border: 3px solid rgb(0, 140, 255);
+    
+
+} */
+
+button{
+    background-color: gray;
+    border: none;
+    color:white;
+    padding: 5px 40px;
+    font-size: 1.1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* input{
+    border: none;
+    -webkit-apperance:none ;
+    -ms-apperance:none;
+    -moz-appearance: none;
+    appearance: none;
+    background: green;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline: none;
+    font-size: 14px;
+} */
+
+ .Container_SignUp .placeholder{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+/* input{
+    border-radius: 0%;
+    border-right: 3px;
+    border-left: 3px;
+    background: 
+    linear-gradient(90deg,#222,#222,) left bottom/100% 2px no-repeat
+    /* linear-gradient(90deg,#fff,#fff,) left bottom/100% 2px no-repeat */
+
+

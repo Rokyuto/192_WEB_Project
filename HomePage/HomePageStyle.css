@@ -1,0 +1,280 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: sans-serif;
+    /* box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: 2s linear; */
+
+}
+
+/* html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+} */
+
+/* header{
+    position: fixed;  /* Да може се движи заедноо със страницата */
+    /* top: 0; left: 0; right: 0;
+    background: #fff;
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 10px 10px 5px 8px lightblue; */
+/* } */ 
+
+body{
+    background-color: rgba(242, 216, 206,0.81) !important;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+} 
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height:50px;
+   
+}  
+
+ .logo{
+    width: 3%;
+    height: 95%;
+    margin-right: 20px;
+
+    
+   
+
+    } 
+   
+ nav{
+    flex: 1;
+    text-align: right;
+    
+    } 
+     /* CSS свойството на курсора настройва курсора на мишката, ако има такъв, да показва, когато показалецът на мишката е над елемент. */
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 22px;
+        
+    }
+
+    nav ul li a:hover{
+        color: 	#ffd700;
+    }
+
+    
+    .navBarIcons img{
+        height: 40px;
+        width: 30px;
+        margin-right: 20px;
+        cursor: pointer;
+        font-size: 10px;
+      }
+
+    
+
+    
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 100px 0;
+    }
+    
+    .col-1{
+        flex-basis: 40%;
+        position:relative;
+        margin-left: 60px; 
+    }
+
+    .col-1 h1{
+        font-size:54px;
+    }
+
+
+    .col-1 h3{
+        font-size: 30px;
+        color: #707070;
+        font-weight: 100;
+        margin: 20px 0 10px;
+    }
+
+    .col-1 p{
+        font-size: 16px;
+        color: #b7b7b7;
+        font-weight: 100;
+        margin: 30px 0;
+
+    }
+
+    button{
+        width: 140px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+        color:white;
+        background:#00bfff;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: width 0.5s;
+    }
+
+    button img{
+        width: 30px;
+        display:none;
+    }
+
+    button:hover  img {
+        display: block;
+
+    }
+
+    button:hover{
+        width: 160px;
+        display: flex;
+        background: linear-gradient(#ffd700,#daa520);
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .col-1::after{
+        content:  '';
+        width: 10px;
+        height: 57%;
+        background:linear-gradient(#00bfff,#1e90ff);
+        position: absolute;
+        left: -40px;
+        top:8px;
+
+
+    }
+
+    .col-2{
+        position: relative;
+        flex-basis: 60%;
+        display: flex;
+        align-items: center;
+    }
+
+     .col-2 .travelPage{
+        width: 70%;
+         float: right !important;
+
+    }
+
+
+     .colorBox{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: linear-gradient(#00bfff,#1e90ff);
+        border-radius: 20px 0 20px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        transform: translateX(150px);
+
+    }   
+
+    /* Style footer */
+    .footer-container{
+       /* width: 100%; */
+       background-color: #faebd7;
+       padding: 4rem 0 4rem;
+    }
+
+    .footer{
+        width: 80%;
+        height: 40%;
+        background: linear-gradient(#00bfff,#1e90ff);
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        
+
+    }
+
+    .footer-heading{
+        display: flex;
+        flex-direction: column;
+        margin-right: 4rem;
+    }
+
+    .footer-heading h2{
+        margin-bottom: 2rem;
+    }
+
+    .footer-heading a{
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-email-form h2{
+        margin-bottom: 2rem;
+
+    }
+
+    #footer-email{
+        width: 250px;
+        height: 40px;
+        border-radius: 4px;
+        outline: none;
+        border: none;
+        padding-left: 0.5rem;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    #footer-email::placeholder{
+        color:#b7b7b7;
+
+    }
+
+    #footer-email-btn{
+        width: 100px;
+        height: 40px;
+        border-radius: 4px;
+        background-color: #daa520;
+        outline: none;
+        border: none;
+        color:#fff;
+        font-size: 1rem;
+    }
+
+    #footer-email-btn:hover{
+        cursor: pointer;
+        background-color: #e6e6fa;
+        transition: all 0.4s ease-out;
+
+    }
+
+
+
+   
