@@ -3,14 +3,11 @@ body{
     display: flex;   
     flex-direction: column;
     justify-content:center;
-    background-color: bisque;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url('Images/BALKAN-Bulgarian-Airlines-1.png');
+    background-image: url("Images/BALKAN-Bulgarian-Airlines-1.png");
     background-repeat: no-repeat;
-    background-size:100%;
-    
+    background-size: 100%;
 }
-
 /* ---------------------- SCROLLBARS ---------------------- */
 
 /* Style for: all elements type scrollbar in the page */
