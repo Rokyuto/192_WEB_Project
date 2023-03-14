@@ -43,6 +43,8 @@
         <title>Balkan Travel</title>
     </head>
     <body>
+        <script type="text/javascript" src="Scripts/Script_Slideshow.js"></script>
+        
         <form action="" method="">
 
             <!-- Menus Container (Element) for Flight Setup (Flight Airline, From and To Airports, Airports Switch Button, Flight Date) -->
